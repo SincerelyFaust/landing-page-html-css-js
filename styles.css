@@ -615,8 +615,63 @@
     }
   }
 
+  /* Divider */
+
   hr.solid {
     border-top: 1px solid var(--gray-200);
     width: 90%;
     margin: auto;
+  }
+
+  /* Social proof section */
+
+  .social-proof-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    @media (max-width: 600px) {
+      display: none;
+    }
+  }
+
+  .social-proof-container {
+    display: flex;
+    padding: 0px 32px;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    gap: 32px;
+  }
+
+  .social-proof-content {
+    display: flex;
+    padding: 64px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    border-radius: 16px;
+    background: var(--gray-50);
+    width: 100%;
+  }
+
+  .social-proof-content p {
+    text-align: center;
+    color: var(--gray-500);
+    font-size: var(--text-xl-normal-size);
+    font-style: var(--text-xl-normal-style);
+    font-weight: var(--text-xl-normal-weight);
+    line-height: var(--text-xl-normal-line-height);
+  }
+
+  .social-proof-logos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 100%;
   }
