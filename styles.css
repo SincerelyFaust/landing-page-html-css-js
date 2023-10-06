@@ -2247,12 +2247,15 @@ hr.solid {
 }
 
 details {
-  max-width: 768px;
-  width: 100%;
+  width: 600px;
+
+  @media (max-width: 900px) {
+    width: 100%;
+  }
 }
 
 summary {
-  padding: 0 0 8px 0;
+  padding: 0 50px 8px 0;
   cursor: pointer;
   position: relative;
 }
