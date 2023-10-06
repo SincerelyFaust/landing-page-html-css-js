@@ -2064,6 +2064,7 @@ hr.solid {
   align-items: flex-start;
   flex-wrap: wrap;
   gap: 32px;
+  width: 100%;
 
   @media (max-width: 600px) {
     gap: 16px;
