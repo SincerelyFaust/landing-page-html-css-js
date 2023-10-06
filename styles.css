@@ -1284,6 +1284,7 @@ hr.solid {
   font-weight: var(--text-md-medium-weight);
   line-height: var(--text-md-medium-line-height);
   cursor: pointer;
+  text-decoration: none;
 }
 
 .nav-mobile-footer {
@@ -1317,6 +1318,7 @@ hr.solid {
   font-weight: var(--text-md-medium-weight);
   line-height: var(--text-md-medium-line-height);
   cursor: pointer;
+  text-decoration: none;
 }
 
 .nav-mobile-footer-buttons {
