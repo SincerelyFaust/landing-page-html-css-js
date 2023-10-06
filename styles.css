@@ -931,6 +931,7 @@ hr.solid {
   font-weight: var(--text-md-medium-weight);
   line-height: var(--text-md-medium-line-height);
   cursor: pointer;
+  text-decoration: none;
 }
 
 .footer-links-item-badge {
@@ -1246,6 +1247,7 @@ hr.solid {
   font-weight: var(--text-md-medium-weight);
   line-height: var(--text-md-medium-line-height);
   cursor: pointer;
+  text-decoration: none;
 
   @media (max-width: 960px) {
     display: none;
