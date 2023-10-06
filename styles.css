@@ -1161,8 +1161,8 @@ hr.solid {
   }
 
   @media (max-width: 570px) {
-    top: 700px;
-    left: -20px;
+    top: 760px;
+    left: -100px;
   }
 }
 
@@ -1179,6 +1179,11 @@ hr.solid {
   @media (max-width: 600px) {
     top: 720px;
     right: -160px;
+  }
+
+  @media (max-width: 570px) {
+    top: 820px;
+    right: -220px;
   }
 }
 
