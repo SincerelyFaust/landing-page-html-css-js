@@ -2302,6 +2302,10 @@ details h3 {
   line-height: var(--text-md-normal-line-height);
 }
 
+details summary::-webkit-details-marker {
+  display:none;
+}
+
 .faq-content-2 hr {
   border-top: 1px solid var(--gray-200);
   width: 100%;
